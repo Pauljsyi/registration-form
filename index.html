@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      
+      div {
+        display: flex;
+        /* align-items: center; */
+        
+        /* justify-content: space-between; */
+        /* max-width: 00px; */
+      }
+
+      h5, form {
+        margin: 10px;
+      }
+
+      .textbox {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content:flex-start;
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div>
+      <h5>First Name: *</h5>
+      <form action="">
+        <input type="text" />
+      </form>
+    </div>
+    <div>
+      <h5>Last Name: *</h5>
+      <form action="">
+        <input type="text" />
+      </form>
+    </div>
+    <div>
+      <h5>Email Address: *</h5>
+      <form action="">
+        <input type="text" />
+      </form>
+    </div>
+    <div>
+      <h5>Password: *</h5>
+      <form action="">
+        <input type="password" />
+      </form>
+    </div>
+    <div>
+      <h5>Confirm Password: *</h5>
+      <form action="">
+        <input type="password" />
+      </form>
+    </div>
+    <div>
+      <h5>Birthday:</h5>
+      <form action="">
+        <input type="date" />
+      </form>
+    </div>
+    <div >
+      <h5>Gender Identity:</h5>
+      <form action="">
+        <input type="radio">Male</input>
+        <input type="radio">Female</input>
+        <input type="radio">Non-binary</input>
+        <input type="radio">I prefer not to answer</input>
+      </form>
+    </div>
+    <div class="textbox">
+      <h5>A short description about myself: </h5>
+      <form action="">
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+      </form>
+
+    </div>
+    <div>
+      <h5>Favorite Language: </h5>
+      <select name="language" id="">
+        <option value="">--Please choose an option--</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+        <option value="Python">Python</option>
+
+      </select>
+    </div>
+    <div>
+
+      <input type="checkbox">
+      <h5>Yes, I would like to receive periodic email updates</h5>
+    </div>
+   
+    
+    <div>
+      <input type="Submit" value="Create Account">
+
+    </div>
+    <h5>* indicates a required field</h5>
+  </body>
+</html>
